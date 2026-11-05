@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Vance | Creative Developer & AI UI Architect</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- GSAP & ScrollTrigger CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+    <!-- Background Glow Elements -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="avatar-wrapper">
+                <div class="avatar-glow"></div>
+                <img src="assets/avatar.png" alt="Alex Vance Avatar" class="avatar-img">
+            </div>
+            <div class="badge">AVAILABLE FOR FREELANCE & CONTRACTS</div>
+            <h1 class="hero-title">Alex <span class="text-gradient">Vance</span></h1>
+            <p class="hero-subtitle">Creative Developer & AI Systems Architect</p>
+            <p class="hero-desc">Building futuristic web applications, high-performance dashboards, and interactive digital experiences.</p>
+            <div class="scroll-indicator">
+                <span>Scroll to Explore</span>
+                <div class="mouse-icon"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 01: DESKTOP SHOWCASE -->
+    <section class="showcase-section desktop-section">
+        <div class="section-info">
+            <span class="section-tag">01 / FEATURED SYSTEM</span>
+            <h2>Neural Analytics <span class="text-gradient">Dashboard</span></h2>
+            <p>Real-time AI telemetry, data visualization, and sub-10ms network monitoring interface.</p>
+        </div>
+
+        <div class="browser-mockup">
+            <div class="browser-header">
+                <div class="dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="browser-address">https://neural-ai.dashboard.internal</div>
+            </div>
+            <div class="browser-body">
+                <img src="assets/desktop-preview.png" alt="Desktop Dashboard Interface" class="mockup-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 02: MOBILE SHOWCASE -->
+    <section class="showcase-section mobile-section">
+        <div class="section-info">
+            <span class="section-tag">02 / MOBILE INTERFACE</span>
+            <h2>Mobile AI <span class="text-gradient">Experience</span></h2>
+            <p>Sleek, responsive mobile platform engineered for seamless gesture navigation and live tracking.</p>
+        </div>
+
+        <div class="phone-wrapper">
+            <div class="phone-mockup">
+                <div class="phone-speaker"></div>
+                <div class="phone-screen">
+                    <img src="assets/mobile-preview.png" alt="Mobile App UI Showcase" class="mockup-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 03: CONTACT FORM -->
+    <section class="contact-section">
+        <div class="glass-card contact-card">
+            <span class="section-tag">03 / CONTACT</span>
+            <h2>Let's Build Something <span class="text-gradient">Extraordinary</span></h2>
+            <p>Have a project in mind or looking for a creative developer? Let's talk.</p>
+            
+            <form class="contact-form" onsubmit="event.preventDefault();">
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea rows="4" placeholder="Project details or message..." required></textarea>
+                </div>
+                <button type="submit" class="btn-glow">Send Message ✨</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
